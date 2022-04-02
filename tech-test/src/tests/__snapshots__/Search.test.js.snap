@@ -2,20 +2,24 @@
 
 exports[`Search renders Search component correctly 1`] = `
 <DocumentFragment>
-  <form
-    class="seach-form"
+  <div
+    class="Search"
   >
-    <input
-      class="search-input"
-      type="text"
-      value=""
-    />
-    <button
-      class="search-button"
-      type="submit"
+    <form
+      class="seach-form"
     >
-      Submit
-    </button>
-  </form>
+      <input
+        class="search-input"
+        placeholder="Search Images"
+        type="text"
+      />
+      <button
+        class="search-button"
+        type="submit"
+      >
+        Launch!
+      </button>
+    </form>
+  </div>
 </DocumentFragment>
 `;

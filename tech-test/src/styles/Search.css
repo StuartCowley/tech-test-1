@@ -1,7 +1,10 @@
+.Search {
+  padding-bottom: 50px;
+}
+
 .form {
   display: flex;
   flex-direction: row;
-
 }
 
 .search-input {
@@ -18,4 +21,10 @@
   border-radius: 11px;
   padding: 0 10px;
   font-size: 20px;
+  transition-duration: 0.4s;
+}
+
+.search-button:hover {
+  background-color: green;
+  color: white;
 }

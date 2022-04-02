@@ -16,6 +16,7 @@ const Search = ({ setSearchResults }) => {
       <form className="seach-form" onSubmit={handleSubmit}>
         <input 
           className="search-input" 
+          placeholder="Search Images"
           type="text"
           onChange={(e) => setSearchValue(e.target.value)}
         />
