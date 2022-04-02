@@ -2,7 +2,7 @@
 
 An interview style tech-test, where the given brief asked for a search form to return images from an endpoint, built in an app using React.
 
-![](./screenshot.png)
+![](./tech-test/screenshot.png)
 
 ### Testing Utilities
 
